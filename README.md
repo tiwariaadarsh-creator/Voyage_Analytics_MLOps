@@ -40,7 +40,11 @@ Prerequisites
 Ensure you have the following installed on your system:
 
 Python 3.8+
+
 Git
+
 Docker
+
 MLFlow
+
 Streamlit
