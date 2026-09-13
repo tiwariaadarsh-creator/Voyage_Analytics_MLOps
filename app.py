@@ -132,6 +132,4 @@ if __name__ == '__main__':
 
 #streamlit run "PROJECT/streamlit and joblib flight data/FLIGHT PRICE PREDICT/app.py"
 
-
-#"/Users/amolthakur/Desktop/MLops - Voyage analytics /PROJECT/streamlit and joblib flight data/FLIGHT PRICE PREDICT" && docker build -t flight-price-predictor .
 #docker run -p 8501:8501 flight-price-predictor
