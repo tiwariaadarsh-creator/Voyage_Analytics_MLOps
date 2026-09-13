@@ -6,7 +6,7 @@ import os
 st.set_page_config(page_title="Name Gender Classifier", layout="wide")
 st.title("Name-Based Gender Prediction")
 
-model_file = '/Users/amolthakur/Desktop/MLops project files/Gender classification files/name_gender_classifier.pkl'
+model_file = '/Users/aadarshtiwari/Desktop/MLops project files/Gender classification files/name_gender_classifier.pkl'
 
 # Check file existence
 if not os.path.exists(model_file):
@@ -41,5 +41,5 @@ if name:
         confidence = max(probability[0]) * 100
         st.metric("Predicted Gender", gender, f"{confidence:.1f}% confidence")
 
-#streamlit run "/Users/amolthakur/Desktop/MLops - Voyage analytics /PROJECT/GENDER_CLASSIFICATION/genderapp.py"
-#streamlit run "/Users/amolthakur/Desktop/MLops - Voyage analytics /PROJECT/streamlit and joblib flight data/GENDER_CLASSIFICATION/genderapp.py"
+#streamlit run "/Users/aadarshtiwari/Desktop/MLops - Voyage analytics /PROJECT/GENDER_CLASSIFICATION/genderapp.py"
+#streamlit run "/Users/aadarshtiwari/Desktop/MLops - Voyage analytics /PROJECT/streamlit and joblib flight data/GENDER_CLASSIFICATION/genderapp.py"
