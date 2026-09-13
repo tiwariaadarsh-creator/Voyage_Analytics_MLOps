@@ -92,4 +92,4 @@ if section == "Hotel Recommendations":
         """,
         unsafe_allow_html=True
     )
-    #streamlit run "/Users/amolthakur/Desktop/MLops - Voyage analytics /PROJECT/streamlit and joblib flight data/HOTEL_RECOMMEND/hotelapp.py"
+    
